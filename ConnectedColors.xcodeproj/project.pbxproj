@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF362D852108C80300F7397B /* ColorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF362D842108C80300F7397B /* ColorService.swift */; };
 		BF6F13F81E4E58C90018D56E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F13F71E4E58C90018D56E /* AppDelegate.swift */; };
 		BF6F13FA1E4E58C90018D56E /* ColorSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F13F91E4E58C90018D56E /* ColorSwitchViewController.swift */; };
 		BF6F13FD1E4E58C90018D56E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6F13FB1E4E58C90018D56E /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF362D842108C80300F7397B /* ColorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorService.swift; sourceTree = "<group>"; };
 		BF6F13F41E4E58C90018D56E /* ConnectedColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectedColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6F13F71E4E58C90018D56E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF6F13F91E4E58C90018D56E /* ColorSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSwitchViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				BF6F13F71E4E58C90018D56E /* AppDelegate.swift */,
 				BF6F13F91E4E58C90018D56E /* ColorSwitchViewController.swift */,
+				BF362D842108C80300F7397B /* ColorService.swift */,
 				BF6F13FB1E4E58C90018D56E /* Main.storyboard */,
 				BF6F13FE1E4E58C90018D56E /* Assets.xcassets */,
 				BF6F14001E4E58C90018D56E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF362D852108C80300F7397B /* ColorService.swift in Sources */,
 				BF6F13FA1E4E58C90018D56E /* ColorSwitchViewController.swift in Sources */,
 				BF6F13F81E4E58C90018D56E /* AppDelegate.swift in Sources */,
 			);
